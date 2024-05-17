@@ -23,7 +23,10 @@ public class StepDefination
 	@Then("^home screen should populate$")
 	public void Home_screen_should_be_displayed()
 	{
-		
+		System.out.println("this is new printing statement 1");
+		System.out.println("this is new printing statement 2");
+		System.out.println("this is new printing statement 3");
+
 	}
 	
 	@And("^cards are displayed$")
